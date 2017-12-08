@@ -1,0 +1,77 @@
+.header-global h1.logo img {
+	max-height: 40px;
+}
+
+.home > header {
+	background: url('../starter-theme/images/header_bg.jpg');
+	background-size: cover;
+	background-position: 50%;
+
+	.outer-wrapper {
+		padding-top: 150px;
+	    padding-bottom: 150px;
+	}
+	.title {
+		background: transparent;
+		box-shadow: none;
+		margin-left: 0;
+
+		> .heading-group h1 {
+			color: #fff;
+			text-shadow: none;
+		}
+		> .heading-group p {
+			color: #fff;
+		}
+	}
+}
+
+//Footer
+
+.footer-main{
+  padding: 2em 0;
+  border-top: 3px solid $course-section-background-color;
+  .logo{
+    margin-bottom: 1em;
+  }
+  ul{
+    list-style: none;
+    margin-left: 1.5em;
+    li{
+      color: $dark;
+      padding: .3em 0;
+      a{
+        font-size: 1em;
+        color: $dark !important;
+        &:hover{
+          color: $dark !important;
+          text-decoration: none;
+        }
+      }
+      &:first-child{
+        font-weight:bold;
+      }
+      &:last-child{
+        margin-bottom: 2em;
+      }
+    }
+  }
+  .footer-logo{
+    text-align: center;
+    img{
+      margin-bottom: 1.5rem;
+      width: auto;
+      height: 44px;
+    }
+  }
+  .open-edx-logo{
+    ul{
+      li{
+        text-align: left;
+        img{
+          max-width: 80%;
+        }
+      }
+    }
+  }
+}
