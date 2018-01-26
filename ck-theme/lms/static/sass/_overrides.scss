@@ -30,7 +30,7 @@
 
 .footer-main{
   padding: 2em 0;
-  border-top: 3px solid $course-section-background-color;
+  border-top: 3px solid #1F1F1F;
   .logo{
     margin-bottom: 1em;
   }
@@ -38,13 +38,13 @@
     list-style: none;
     margin-left: 1.5em;
     li{
-      color: $dark;
+      color: #1F1F1F;
       padding: .3em 0;
       a{
         font-size: 1em;
-        color: $dark !important;
+        color: #1F1F1F !important;
         &:hover{
-          color: $dark !important;
+          color: #1F1F1F !important;
           text-decoration: none;
         }
       }
